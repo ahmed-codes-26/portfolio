@@ -1,0 +1,10 @@
+# Ahmed Ali — Own Orbit
+
+> Personal portfolio of Ahmed Ali, a full-stack web developer, Computer Science undergraduate, and educator in Pakistan.
+
+- [Portfolio](https://ahmed-ali-own-orbit.wiseboar34.chatgpt.site/): Software, education, creativity, and personal interests.
+- [Profile](https://ahmed-ali-own-orbit.wiseboar34.chatgpt.site/profile.md): Factual professional background and contact links.
+- [MyAcademy Portal](https://ahmed-ali-own-orbit.wiseboar34.chatgpt.site/projects/myacademy-portal.md): Full-stack education management project.
+- [Konekt](https://ahmed-ali-own-orbit.wiseboar34.chatgpt.site/projects/konekt.md): Social application with real-time interactions.
+
+Ahmed is interested in professional connections and knowledge sharing. This is not an employment-availability announcement.

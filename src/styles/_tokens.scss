@@ -1,0 +1,11 @@
+$void: #0b0d12;
+$carbon: #1b2029;
+$ivory: #f3f0e9;
+$ember: #f4a261;
+$violet: #8b79e6;
+$cyan: #6ccbd0;
+$muted: #a4a6ae;
+$line: rgba($ivory, .14);
+@mixin mobile { @media (max-width: 700px) { @content; } }
+@mixin tablet { @media (max-width: 1000px) { @content; } }
+@mixin mono { font-family: var(--font-mono), monospace; font-size: 10px; font-weight: 400; letter-spacing: .09em; line-height: 1.6; }
