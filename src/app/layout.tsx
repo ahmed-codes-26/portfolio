@@ -12,7 +12,7 @@ const serif = localFont({ src: '../../node_modules/@fontsource/instrument-serif/
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: { default: 'Ahmed Ali — Own Orbit', template: '%s — Ahmed Ali' },
+  title: { default: 'Ahmed Ali', template: '%s — Ahmed Ali' },
   description: profile.description,
   alternates: { canonical: '/' },
   openGraph: { type: 'website', siteName: 'Ahmed Ali — Own Orbit', title: 'Built off-script. At my own pace.', description: profile.description, url: siteUrl, images: [{ url: '/images/social.jpg', width: 1200, height: 630, alt: 'Ahmed Ali — Full-Stack Developer & Educator' }] },
