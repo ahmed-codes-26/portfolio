@@ -4,4 +4,3 @@ out/
 .sites-runtime/
 *.tsbuildinfo
 .env*.local
-work/

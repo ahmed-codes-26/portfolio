@@ -1,4 +1,4 @@
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ahmed-ali-own-orbit.wiseboar34.chatgpt.site';
+export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://portfolio.ahmedcodes.pro';
 export const profile = {
   name: 'Ahmed Ali',
   title: 'Full-Stack Developer & Educator',
