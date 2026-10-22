@@ -30,7 +30,10 @@ export default function Home() {
           <h1 id="hero-heading"><span className="hero-line">Built</span><span className="hero-line">off-script<span className="ember">.</span></span></h1>
           <p className="hero-serif">At my own pace.</p>
           <p className="hero-intro">I’m Ahmed Ali. I build useful things,<br className="desktop-break" /> share what I learn, and follow my curiosity.</p>
-          <a href="#work" className="pill-link">Explore my work <span aria-hidden="true">↘</span></a>
+          <div className="hero-actions">
+            <a href="#work" className="pill-link">Explore my work <span aria-hidden="true">↘</span></a>
+            <a href="/CV/Ahmed%20Ali.pdf" className="pill-link" download="Ahmed Ali CV.pdf">Download CV <span aria-hidden="true">↓</span></a>
+          </div>
         </div>
         <div className="hero-portrait">
           <span className="portrait-coordinate eyebrow">01. HUMAN, BEFORE ANYTHING.</span>

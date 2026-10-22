@@ -39,6 +39,7 @@ h2 em { color: $ember; }
 .hero-grid { position: absolute; inset: 100px 5vw 0; z-index: -2; background-image: linear-gradient(rgba($ivory,.035) 1px,transparent 1px),linear-gradient(90deg,rgba($ivory,.035) 1px,transparent 1px); background-size: 25% 190px; mask-image: linear-gradient(black,transparent); }
 .hero-topline { display: flex; justify-content: space-between; color: $muted; .status-dot { margin-left: 15px; width: 4px; height: 4px; } }
 .hero-copy { position: relative; z-index: 3; width: 65%; margin-top: 65px; pointer-events: none; a { pointer-events: auto; } }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
 .hero-kicker { margin-bottom: 24px; color: $muted; font-size: 9px; letter-spacing: .13em; display: flex; align-items: center; gap: 12px; .tiny-line { width: 25px; height: 1px; background: $ember; } }
 .hero h1 { font-size: clamp(80px, 8.7vw, 145px); line-height: .91; letter-spacing: -.065em; margin-bottom: 0; max-width: 850px; .hero-line { display: block; } }
 .hero-serif { color: $ember; font-family: var(--font-serif), serif; font-style: italic; font-size: clamp(42px,4.8vw,76px); line-height: 1.05; margin: 20px 0 29px; letter-spacing: -.035em; }

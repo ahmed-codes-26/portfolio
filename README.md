@@ -24,6 +24,16 @@ npm start
 
 ## Update content
 
+### Render static hosting
+
+Use `npm ci && npm run build` as the Build Command and `out` as the Publish Directory. Deploy the latest commit, including `src/app/work/[slug]/page.tsx` and `public/CV/Ahmed Ali.pdf`. The build now verifies that all project pages linked from the home page and the downloadable CV exist in the export.
+
+An earlier Git ignore rule (`work/`) excluded the project route source. That rule has been removed and the route is tracked. A deployment made before that correction can show the home page while returning 404 for both projects. Redeploy the latest commit (use Render's clear-build-cache option if needed).
+
+Keep the generated directory routes: `/work/myacademy-portal/` and `/work/konekt/` each have their own `index.html`. Do not add a catch-all rewrite to the home page. Verify both URLs directly and after a refresh once deployed.
+
+The hero's Download CV button serves `public/CV/Ahmed Ali.pdf`. Replace that file to update the download.
+
 - `src/lib/content.ts`: profile links, projects, skills, canonical origin.
 - `src/app/page.tsx`: narrative chapters and personal copy.
 - `src/styles/_tokens.scss`: palette and responsive mixins.
